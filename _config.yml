@@ -13,7 +13,7 @@ name                     : &name "Arshdeep"
 description              : &description "personal description"
 url                      : https://a-dandial.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : 
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -83,11 +83,11 @@ author:
   name             : "Arshdeep Singh Dandial"
   avatar           : "profile.png"
   bio              : "MEng candidate"
-  location         : "Location"
+  location         : "Montreal, Canada"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            :
+  email            : "arshdeepdandiala.gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/arshdeepdandiala/"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -209,19 +209,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
+ 
+  # _projects
   - scope:
       path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
+      type: projects
     values:
       layout: single
       author_profile: true
@@ -236,10 +228,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _CV
   - scope:
       path: ""
-      type: talks
+      type: CV
     values:
       layout: talk
       author_profile: true
@@ -255,7 +247,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
